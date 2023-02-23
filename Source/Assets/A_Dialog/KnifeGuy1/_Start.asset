@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5b20ce96c5390e48a83a932358400b6, type: 3}
+  m_Name: _Start
+  m_EditorClassIdentifier: 
+  text: You gotta help me, man. I'm completely fucking lost in here and there's people
+    following me.
+  options:
+  - {fileID: 11400000, guid: 774018768c3f55346a8258c9e04bc51a, type: 2}
+  - {fileID: 11400000, guid: dfdcbd4e503f00744ac97c4a7a534207, type: 2}
+  audioClip:
+    Guid:
+      Data1: 1826794066
+      Data2: 1223920281
+      Data3: -2117371984
+      Data4: 632301243
+    Path: event:/Dialogue/TW/TW1_A1

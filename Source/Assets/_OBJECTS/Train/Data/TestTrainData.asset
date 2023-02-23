@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b03797969e7004296fdd6529bfad01, type: 3}
+  m_Name: TestTrainData
+  m_EditorClassIdentifier: 
+  waypoints: {fileID: 8404134293278239728, guid: daae278785ffb0147b5c0e8748854040, type: 3}
+  encounter:
+  - {fileID: 3230389728809810245, guid: 231e22c7cc1c0a949902d72ef6680c81, type: 3}
+  - {fileID: 3230389728809810245, guid: 231e22c7cc1c0a949902d72ef6680c81, type: 3}

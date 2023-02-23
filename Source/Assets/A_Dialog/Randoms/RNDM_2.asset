@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5b20ce96c5390e48a83a932358400b6, type: 3}
+  m_Name: RNDM_2
+  m_EditorClassIdentifier: 
+  text: "My daughter got lost, as well.\r\nI swore to God I would look for her, until
+    the tunnels flood.\r\nAnd God swore to me I would find her, until I flood the
+    tunnels.\r\nI still hear their voices. They\u2019re stuck in my head.\r\nI still
+    smell their blood. It\u2019s stuck to my hands.\r\nYou would be surprised how
+    much there is.\r\nOnce you start, it just starts to come out, and for some it
+    never stops.\r\nIt flows and flows, from one to the next,\r\nUntil the tunnels
+    flood.\r"
+  options: []
+  audioClip: {fileID: 0}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerReturn" id="{b0a81fd1-0e95-4df7-995a-a24972cdb4f1}">
+		<property name="volume">
+			<value>-4</value>
+		</property>
+		<property name="name">
+			<value>ReverbClose</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{ef2af95f-cb8e-42da-b982-f16032ac1203}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{0db19c55-5657-47f4-8e71-bbae531e4ed0}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{cfa5bb9d-d3bd-42bc-909a-23f5fda74f24}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{ef2af95f-cb8e-42da-b982-f16032ac1203}">
+		<relationship name="effects">
+			<destination>{7d8574aa-e727-4db4-a0c0-38480741480e}</destination>
+			<destination>{f219b0fd-60a2-412f-8da3-9496fa9c0ff0}</destination>
+			<destination>{1f1873a5-21cf-424d-83e3-c1bc5e70c6e4}</destination>
+			<destination>{b83a6d9f-63fd-42bb-8443-11147a0a5b92}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{0db19c55-5657-47f4-8e71-bbae531e4ed0}" />
+	<object class="MixerBusFader" id="{7d8574aa-e727-4db4-a0c0-38480741480e}" />
+	<object class="DelayEffect" id="{f219b0fd-60a2-412f-8da3-9496fa9c0ff0}">
+		<property name="delay">
+			<value>66</value>
+		</property>
+		<property name="feedback">
+			<value>67</value>
+		</property>
+		<property name="level">
+			<value>-10.5</value>
+		</property>
+	</object>
+	<object class="SFXReverbEffect" id="{1f1873a5-21cf-424d-83e3-c1bc5e70c6e4}">
+		<property name="decayTime">
+			<value>2000</value>
+		</property>
+		<property name="earlyDelay">
+			<value>14</value>
+		</property>
+		<property name="lateDelay">
+			<value>21</value>
+		</property>
+		<property name="HFDecayRatio">
+			<value>14</value>
+		</property>
+		<property name="diffusion">
+			<value>13.5</value>
+		</property>
+		<property name="density">
+			<value>60</value>
+		</property>
+		<property name="highCut">
+			<value>3400</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>66</value>
+		</property>
+		<property name="wetLevel">
+			<value>0</value>
+		</property>
+		<property name="dryLevel">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ThreeEQEffect" id="{b83a6d9f-63fd-42bb-8443-11147a0a5b92}">
+		<property name="lowGain">
+			<value>-4</value>
+		</property>
+	</object>
+</objects>

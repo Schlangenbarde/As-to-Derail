@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{c913b4b0-17eb-4d10-9fac-b9d0fb04daa7}">
+		<property name="assetPath">
+			<value>TW1_B.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>8.5</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2caeb643-2550-4d2b-8e84-d8acad947a19}</destination>
+		</relationship>
+	</object>
+</objects>

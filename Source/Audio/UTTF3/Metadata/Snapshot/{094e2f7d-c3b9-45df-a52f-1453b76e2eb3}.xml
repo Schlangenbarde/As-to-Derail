@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="Snapshot" id="{094e2f7d-c3b9-45df-a52f-1453b76e2eb3}">
+		<property name="name">
+			<value>ReverbClose</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{246860a5-55de-4cb9-9397-c40b5011a135}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{908bce05-072c-4f99-854e-d98732bf5859}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{aecebba4-3a6e-47f4-90ed-5c6bdfdf3038}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{784272d3-a3f2-42e4-9a03-6b3607f0d412}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{14bbcb7e-71e4-4428-8109-d803ccb46aec}</destination>
+		</relationship>
+		<relationship name="snapshotProperties">
+			<destination>{f02cf236-0108-44b3-a833-39b015522246}</destination>
+			<destination>{ac91369b-e0a8-4adc-86d3-a0fae0df8ed3}</destination>
+		</relationship>
+		<relationship name="snapshotTracks">
+			<destination>{62dbf18c-f543-48d2-8368-f1b2d6e3731c}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{908bce05-072c-4f99-854e-d98732bf5859}" />
+	<object class="MarkerTrack" id="{aecebba4-3a6e-47f4-90ed-5c6bdfdf3038}" />
+	<object class="Timeline" id="{784272d3-a3f2-42e4-9a03-6b3607f0d412}" />
+	<object class="SnapshotMasterTrack" id="{14bbcb7e-71e4-4428-8109-d803ccb46aec}" />
+	<object class="SnapshotProperty" id="{f02cf236-0108-44b3-a833-39b015522246}">
+		<property name="propertyName">
+			<value>level</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{cc12e0b4-a7b1-4336-9e94-3bbff244c8d1}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotProperty" id="{ac91369b-e0a8-4adc-86d3-a0fae0df8ed3}">
+		<property name="propertyName">
+			<value>level</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{7c193c5a-70e1-484f-aca1-1099230e3acf}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{62dbf18c-f543-48d2-8368-f1b2d6e3731c}">
+		<relationship name="mixerStrip">
+			<destination>{6b4ff776-0cf1-40db-85a3-81673ce60674}</destination>
+		</relationship>
+	</object>
+</objects>

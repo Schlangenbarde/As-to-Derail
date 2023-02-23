@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 174b0dc70bba1c74caf13c14e26b152f, type: 3}
+  m_Name: TW1_A2
+  m_EditorClassIdentifier: 
+  nextPanel: {fileID: 11400000, guid: 9448196d867e24e43aea6ddae10a552f, type: 2}
+  previewOptionText: My sister is at a "lost station"
+  optionText: (sigh) My sister ran after her boyfriend and apparently went to a lost
+    train station. Do you have any idea where that could be?
+  optionAudioClip:
+    Guid:
+      Data1: 44049546
+      Data2: 1140025541
+      Data3: -819506799
+      Data4: 814813093
+    Path: event:/Player/Steps/Steps
+  awnserText: 
+  awnserAudioClip:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  ableToAccesDefinition: 
+  consequenzDefinition: hasHeardTW1_E = true

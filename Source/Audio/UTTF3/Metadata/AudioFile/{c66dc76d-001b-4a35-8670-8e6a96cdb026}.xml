@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{c66dc76d-001b-4a35-8670-8e6a96cdb026}">
+		<property name="assetPath">
+			<value>PlayerStepsStone6.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.86160997732426303</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2caeb643-2550-4d2b-8e84-d8acad947a19}</destination>
+		</relationship>
+	</object>
+</objects>

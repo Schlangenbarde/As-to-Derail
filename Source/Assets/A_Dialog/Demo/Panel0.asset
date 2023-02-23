@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5b20ce96c5390e48a83a932358400b6, type: 3}
+  m_Name: Panel0
+  m_EditorClassIdentifier: 
+  text: A, B, C, D, E or F?
+  options:
+  - {fileID: 11400000, guid: 2fe8207775186614a8a281be7fd8b43e, type: 2}
+  - {fileID: 11400000, guid: 1781f5e0160bc1e4592ae03383dd391e, type: 2}
+  - {fileID: 11400000, guid: fe7bc01547bdbc045bc7ba4d8fbbd37e, type: 2}
+  - {fileID: 11400000, guid: ddc8721db82222a44b2d035f145f72ee, type: 2}
+  - {fileID: 11400000, guid: 044ebc311edaddb4c8a3f5bf58cbfdc3, type: 2}
+  - {fileID: 11400000, guid: c4cbb0e93e16b704fa93479dd878ab1b, type: 2}

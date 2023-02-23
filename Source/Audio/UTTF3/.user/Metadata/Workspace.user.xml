@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="Workspace" id="{7e3b470f-03cf-430e-8266-8a1cfbd0dd05}">
+		<relationship name="projectSettings">
+			<destination>{a32fbc82-66b7-46bc-a490-77d548230ecb}</destination>
+		</relationship>
+		<relationship name="sourceControlProvider">
+			<destination>{a5a0999c-3b3c-499a-a480-827e8d0d3b3f}</destination>
+		</relationship>
+		<relationship name="changelist">
+			<destination>{fec07be0-b87a-474c-a6e2-b89cb7c72846}</destination>
+		</relationship>
+	</object>
+	<object class="ProjectSettings" id="{a32fbc82-66b7-46bc-a490-77d548230ecb}">
+		<relationship name="activePlatform">
+			<destination>{f8a25a15-f737-4d69-b9dd-df02c19f5ed1}</destination>
+		</relationship>
+	</object>
+	<object class="ScriptBasedProvider" id="{a5a0999c-3b3c-499a-a480-827e8d0d3b3f}">
+		<property name="name">
+			<value>Perforce</value>
+		</property>
+		<property name="settings">
+			<value>{"p4port":"perforce.school4games.net:1666","p4host":"LAPTOP-QO12KMJ8","p4encoding":"utf32","p4user":"nico.chera","p4password":"Cool1708!","p4client":"nico.chera_home5","p4Executable":""}</value>
+		</property>
+	</object>
+	<object class="WorkspaceChangelist" id="{fec07be0-b87a-474c-a6e2-b89cb7c72846}" />
+</objects>

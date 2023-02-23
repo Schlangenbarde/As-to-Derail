@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5b20ce96c5390e48a83a932358400b6, type: 3}
+  m_Name: HW_c
+  m_EditorClassIdentifier: 
+  text: "Twenty years, I had been looking for my son. I saw my skin age and crumble
+    and rust, but I would not have known a night had passed. I wish the rules were
+    different down here. That, without water or sleep, I wouldn\u2019t have made
+    it to here. I wish that time would pass for the living. Or - for the dead. You
+    do not want to find your sister. You don\u2019t want her to find you. Do not
+    descend."
+  options: []
+  audioClip:
+    Guid:
+      Data1: -271495107
+      Data2: 1290465862
+      Data3: 622116755
+      Data4: -95397574
+    Path: event:/SFX/DialoguePiano

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerReturn" id="{c374d4b1-ae89-4f55-a341-8d93814d2584}">
+		<property name="volume">
+			<value>-5</value>
+		</property>
+		<property name="name">
+			<value>Delay</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{b8e3939f-f4b1-41ed-8ffb-d1c650eb3e81}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{faf0908d-0190-475a-8fcc-9debc9b3c01f}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{cfa5bb9d-d3bd-42bc-909a-23f5fda74f24}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{b8e3939f-f4b1-41ed-8ffb-d1c650eb3e81}">
+		<relationship name="effects">
+			<destination>{5c714798-0569-49f7-b30e-ff0de8ba7d82}</destination>
+			<destination>{d94a14fb-5c3c-47de-8ef7-373a934671ce}</destination>
+			<destination>{5ae1fd29-2e3c-4fcd-b450-103fdc1f4bfc}</destination>
+			<destination>{b664bc48-32d0-4690-9808-ef5527d19088}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{faf0908d-0190-475a-8fcc-9debc9b3c01f}" />
+	<object class="MixerBusFader" id="{5c714798-0569-49f7-b30e-ff0de8ba7d82}" />
+	<object class="DelayEffect" id="{d94a14fb-5c3c-47de-8ef7-373a934671ce}">
+		<property name="dryLevel">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="SFXReverbEffect" id="{5ae1fd29-2e3c-4fcd-b450-103fdc1f4bfc}">
+		<property name="decayTime">
+			<value>400</value>
+		</property>
+		<property name="earlyDelay">
+			<value>13</value>
+		</property>
+		<property name="lateDelay">
+			<value>20</value>
+		</property>
+		<property name="HFDecayRatio">
+			<value>79</value>
+		</property>
+		<property name="highCut">
+			<value>9000</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>86</value>
+		</property>
+		<property name="dryLevel">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="MultibandEqEffect" id="{b664bc48-32d0-4690-9808-ef5527d19088}">
+		<property name="filterTypeB">
+			<value>4</value>
+		</property>
+		<property name="frequencyA">
+			<value>1369.81946</value>
+		</property>
+		<property name="frequencyB">
+			<value>51.8737144</value>
+		</property>
+		<property name="qualityA">
+			<value>0.225586206</value>
+		</property>
+		<property name="qualityB">
+			<value>0.372103453</value>
+		</property>
+	</object>
+</objects>

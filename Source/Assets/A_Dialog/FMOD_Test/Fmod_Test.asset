@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5b20ce96c5390e48a83a932358400b6, type: 3}
+  m_Name: Fmod_Test
+  m_EditorClassIdentifier: 
+  text: I hope Audio is Playing correctly, pretty please :3 <3
+  options:
+  - {fileID: 11400000, guid: a2d07478eb7d36647ac2a335dbfd4f64, type: 2}
+  - {fileID: 11400000, guid: 5cf4a78ae40956b4a8363fa4766d2262, type: 2}
+  audioClip:
+    Guid:
+      Data1: 44049546
+      Data2: 1140025541
+      Data3: -819506799
+      Data4: 814813093
+    Path: event:/Player/Steps/Steps

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{a039f913-d8af-4306-87e3-38d12a4ea5e6}">
+		<property name="name">
+			<value>Cult</value>
+		</property>
+		<relationship name="folder">
+			<destination>{9451fc26-e0a8-4581-9a29-cb299d821805}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{819c1fde-3129-4aa1-987f-c3764734323b}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{819c1fde-3129-4aa1-987f-c3764734323b}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
